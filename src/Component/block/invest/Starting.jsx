@@ -1,5 +1,5 @@
 import React from "react";
-import start from "../../../assets/start.png";
+import start from "../../../assets/Start.png";
 const Starting = () => {
   return (
     <div className="flex max-tablet:flex-col">
