@@ -8,7 +8,7 @@ const Button = ({ title, bg, textColor, borderColor, icon }) => {
         color: `${textColor}`,
         border: `1px solid ${borderColor}`,
       }}
-      className="px-5 py-3 rounded-md flex items-center w-max"
+      className="px-5 py-3 rounded-lg flex items-center w-max"
     >
       <span>{icon}</span>
       <span>{title}</span>

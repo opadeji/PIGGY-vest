@@ -1,9 +1,20 @@
 import React from "react";
+import Hero from "../Component/block/Home/hero";
+import Security from "../Component/block/Home/security";
+import Savings from "../Component/block/Home/Savings";
+import Invest from "../Component/block/Home/Invest";
+import Youtube from "../Component/block/Home/Youtube";
+import Testimony from "../Component/block/Home/Testimony";
 
 const Home = () => {
   return (
     <div>
-      <h1>go home eje</h1>
+      <Hero />
+      <Security />
+      <Savings />
+      <Invest />
+      <Youtube />
+      <Testimony />
     </div>
   );
 };

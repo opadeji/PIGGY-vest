@@ -1,9 +1,11 @@
 import React from "react";
-
+import Storieshero from "../Component/block/stories/Storieshero";
+import StoryBody from "../Component/block/stories/StoryBody";
 const Stories = () => {
   return (
     <div>
-      <h1>you don chop suya finish dety talk stories</h1>
+      <Storieshero />
+      <StoryBody />
     </div>
   );
 };
